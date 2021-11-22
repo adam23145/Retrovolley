@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Retrovolley</string>
+    <string name="retrofit">Implementasi Retrovit (GET)</string>
+    <string name="tambah_user">Tambah User (POST)</string>
+    <string name="volley">Implementasi Volley (GET)</string>
+</resources>
