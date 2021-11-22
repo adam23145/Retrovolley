@@ -144,7 +144,7 @@ public class AddUserActivity extends AppCompatActivity {
 
     public void submitByVolley(User user){
         Gson gson = new Gson();
-        String URL = "http://192.168.1.11/halo/User_Registration.php";
+        String URL = "http://192.168.1.11/volley/User_Registration.php";
 
         ProgressDialog proDialog = new ProgressDialog(this);
         proDialog.setTitle("Volley");

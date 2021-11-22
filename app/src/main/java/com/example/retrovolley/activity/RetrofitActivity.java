@@ -85,7 +85,7 @@ public class RetrofitActivity extends AppCompatActivity {
         proDialog.show();
 
         Retrofit.Builder builder = new Retrofit.Builder()
-                .baseUrl("http://192.168.1.11/halo/")
+                .baseUrl("http://192.168.1.11/volley/")
                 .addConverterFactory(GsonConverterFactory.create());
 
         Retrofit retrofit = builder.build();

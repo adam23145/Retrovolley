@@ -81,7 +81,7 @@ public class VolleyActivity extends AppCompatActivity {
 
     private void getUserFromAPI() {
         Gson gson = new Gson();
-        String URL = "http://192.168.1.11/halo/User_Registration.php";
+        String URL = "http://192.168.1.11/volley/User_Registration.php";
         ProgressDialog proDialog = new ProgressDialog(this);
         proDialog.setTitle("Volley");
         proDialog.setMessage("Silahkan Tunggu");
